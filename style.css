@@ -1,0 +1,165 @@
+/* Global Styles */
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* Header */
+.header {
+    display: inline-flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 69px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.navigation li{
+    display: inline-flex;
+    list-style: none;
+    text-decoration: underline;
+    padding-right: 25px;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* Main Banner */
+.banner {
+    background-image: url(./images/img-mission-background.webp);
+    width: 1200px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.mission {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    background-color: black;
+}
+
+/* Features */
+
+.featured {
+    width: 1000px;
+    height: auto;
+  }
+  
+  .steeping {
+    margin: 0 auto;
+    padding: 5px;
+    text-align:center;
+    position:relative;
+  }
+  
+  .spacer {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: inline-flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+  }
+  
+  .flavor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tea {
+    margin-top: 50px;
+    position: relative;
+    align-items: center;
+  }
+  
+  .tea img {
+    height:200px;
+    width:300px;
+  }
+
+   .tea figcaption {
+    width:300px;
+    text-align:center;
+    font-weight:bold;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+   .tea h4 { 
+    width:300px;
+    text-align:justify;
+    font-weight:bold;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+/* Locations */
+
+.locations {
+    background-image: url(./images/img-locations-background.webp);
+    width: 1200px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.address {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.places {
+    width: 1200px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.teashops {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    line-height: 40px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+/* Footer */
+
+.contact {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
